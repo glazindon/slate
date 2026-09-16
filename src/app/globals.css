@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf9;
+  --foreground: #18181b;
+  --muted: #71717a;
+  --border: #e4e4e7;
+  --ink: #09090b;
+  --slate: #3f3f46;
+  --paper: #ffffff;
+  --accent: #27272a;
+  --success: #166534;
+  --success-bg: #dcfce7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-ink: var(--ink);
+  --color-slate: var(--slate);
+  --color-paper: var(--paper);
+  --color-accent: var(--accent);
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: #d4d4d8;
+  color: var(--ink);
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .invoice-sheet {
+    box-shadow: none !important;
+    border: none !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+.print-only {
+  display: none;
+}
