@@ -35,9 +35,15 @@ Open [http://localhost:3000](http://localhost:3000).
 | `/i/[id]` | Public invoice (copy link, print, mark paid) |
 | `/invoices` | List invoices created in this browser |
 
+## Persistence
+
+- **Local** (`next dev` / `next start`): invoices persist in `data/invoices.json` (gitignored).
+- **Vercel**: set `SLATE_GITHUB_TOKEN` to a GitHub token with **Contents: Read and write** on `glazindon/slate`. The app stores invoices via the GitHub Contents API at `data/invoices.json` on `main`.
+
+Optional overrides: `SLATE_GITHUB_REPO` (default `glazindon/slate`), `SLATE_GITHUB_BRANCH` (default `main`).
+
 ## Notes
 
-- Invoices persist in `data/invoices.json`.
 - Mark as paid requires the same browser/cookie that created the invoice.
 - Public invoice footer shows “Sent with Slate”.
 - Out of scope: auth/SSO, Stripe, email, taxes, recurring.
