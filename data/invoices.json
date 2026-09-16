@@ -24,8 +24,9 @@
     "dueDate": "2026-09-30",
     "notes": "P0 hotfix smoke",
     "paymentInstructions": "Pay via smoke",
-    "status": "sent",
+    "status": "paid",
     "createdAt": "2026-09-16T06:23:36.840Z",
-    "updatedAt": "2026-09-16T06:23:36.840Z"
+    "updatedAt": "2026-09-16T06:23:39.647Z",
+    "paidAt": "2026-09-16T06:23:39.647Z"
   }
 ]
