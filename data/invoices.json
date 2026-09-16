@@ -1,5 +1,31 @@
 [
   {
+    "id": "-VHMujtG-hVV",
+    "creatorToken": "49d60d80-87db-485d-9bbe-b1476c20a97c",
+    "from": {
+      "name": "Enzo Verify Co",
+      "email": "enzo@example.com"
+    },
+    "billTo": {
+      "name": "Verify Client",
+      "email": "client@example.com"
+    },
+    "lineItems": [
+      {
+        "id": "LH2w3i9u",
+        "description": "Smoke test",
+        "quantity": 1,
+        "rate": 42
+      }
+    ],
+    "currency": "USD",
+    "issueDate": "2026-09-16",
+    "dueDate": "2026-09-30",
+    "status": "sent",
+    "createdAt": "2026-09-16T06:24:16.888Z",
+    "updatedAt": "2026-09-16T06:24:16.888Z"
+  },
+  {
     "id": "VDH68OMO0SUz",
     "creatorToken": "bb12b1f1-9891-4aaa-8245-7ae75ce0eb17",
     "from": {
