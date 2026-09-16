@@ -1,0 +1,31 @@
+[
+  {
+    "id": "VDH68OMO0SUz",
+    "creatorToken": "bb12b1f1-9891-4aaa-8245-7ae75ce0eb17",
+    "from": {
+      "name": "Slate Smoke LLC",
+      "email": "smoke@example.com",
+      "address": "1 Test St"
+    },
+    "billTo": {
+      "name": "Acme Client",
+      "email": "client@example.com"
+    },
+    "lineItems": [
+      {
+        "id": "OcFzOCz5",
+        "description": "Hotfix smoke item",
+        "quantity": 1,
+        "rate": 42
+      }
+    ],
+    "currency": "USD",
+    "issueDate": "2026-09-15",
+    "dueDate": "2026-09-30",
+    "notes": "P0 hotfix smoke",
+    "paymentInstructions": "Pay via smoke",
+    "status": "sent",
+    "createdAt": "2026-09-16T06:23:36.840Z",
+    "updatedAt": "2026-09-16T06:23:36.840Z"
+  }
+]
