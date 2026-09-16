@@ -21,9 +21,10 @@
     "currency": "USD",
     "issueDate": "2026-09-16",
     "dueDate": "2026-09-30",
-    "status": "sent",
+    "status": "paid",
     "createdAt": "2026-09-16T06:24:16.888Z",
-    "updatedAt": "2026-09-16T06:24:16.888Z"
+    "updatedAt": "2026-09-16T06:24:19.177Z",
+    "paidAt": "2026-09-16T06:24:19.177Z"
   },
   {
     "id": "VDH68OMO0SUz",
